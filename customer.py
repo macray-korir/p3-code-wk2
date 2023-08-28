@@ -25,8 +25,8 @@ class Customer:
 
 # Testing the Customer class
 if __name__ == "__main__":
-    customer1 = Customer("John", "Doe")
-    customer2 = Customer("Jane", "Smith")
+    customer1 = Customer("Ray", "Mond")
+    customer2 = Customer("Jay", "Shor")
 
     print(customer1.given_name())
     print(customer2.family_name())

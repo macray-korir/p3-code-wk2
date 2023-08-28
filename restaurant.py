@@ -18,8 +18,8 @@ class Restaurant:
 
 # Testing the Restaurant class
 if __name__ == "__main__":
-    restaurant1 = Restaurant("Pizza Hut")
-    restaurant2 = Restaurant("McDonald's")
+    restaurant1 = Restaurant("Mama Shiko")
+    restaurant2 = Restaurant("Kibandaski")
 
     print(restaurant1.get_name())
     print(Restaurant.all())
