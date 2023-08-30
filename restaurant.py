@@ -17,9 +17,8 @@ class Restaurant:
         return cls.all_restaurants
 
 # Testing the Restaurant class
-if __name__ == "__main__":
-    restaurant1 = Restaurant("Mama Shiko")
-    restaurant2 = Restaurant("Kibandaski")
+restaurant1 = Restaurant("Mama Shiko")
+restaurant2 = Restaurant("Kibandaski")
 
-    print(restaurant1.get_name())
-    print(Restaurant.all())
+print(restaurant1.get_name())
+print(Restaurant.all())

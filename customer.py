@@ -22,14 +22,9 @@ class Customer:
     @classmethod
     def all(cls):
         return cls.all_customers
-
-# Testing the Customer class
-if __name__ == "__main__":
-    customer1 = Customer("Ray", "Mond")
-    customer2 = Customer("Jay", "Shor")
-
-    print(customer1.given_name())
-    print(customer2.family_name())
-    print(customer1.full_name())
-
-    print(Customer.all())
+#test
+customer1 = Customer("Ray", "mond")
+customer2 = Customer("Mercy", "Musenya")
+all_customers = Customer.all()
+for customer in all_customers:
+    print(customer.full_name())

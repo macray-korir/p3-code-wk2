@@ -26,15 +26,11 @@ class Review:
         return cls.all_reviews
 
 # Testing the Review class
-if __name__ == "__main__":
-    customer1 = Customer("Ray", "Mond")
-    restaurant1 = Restaurant("Mama Shiko")
-
-    review1 = Review(customer1, restaurant1, 4)
-    review2 = Review(customer1, restaurant1, 5)
-
-    print(review1.rating())
-    print(review2.customer().full_name())
-    print(review1.restaurant().get_name())
-
-    print(Review.all())
+customer1 = Customer("Ray", "Mond")
+restaurant1 = Restaurant("Mama Shiko")
+review1 = Review(customer1, restaurant1, 4)
+review2 = Review(customer1, restaurant1, 5)
+print(review1.rating())
+print(review2.customer().full_name())
+print(review1.restaurant().get_name())
+print(Review.all())
