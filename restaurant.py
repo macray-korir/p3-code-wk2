@@ -21,4 +21,5 @@ restaurant1 = Restaurant("Mama Shiko")
 restaurant2 = Restaurant("Kibandaski")
 
 print(restaurant1.get_name())
+print(restaurant2.get_name())
 print(Restaurant.all())
